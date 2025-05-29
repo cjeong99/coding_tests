@@ -23,7 +23,6 @@ public class Solution {
             // Shrink the window from the left as long as the sum is greater than or equal to target
             while (sum >= target)
             {
-                var aa = Math.
                 minLen = Math.Min(minLen, right - left + 1); // Update the minimum length
                 sum -= nums[left]; // Remove the leftmost element
                 left++; // Move the left pointer to the right
